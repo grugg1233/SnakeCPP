@@ -16,7 +16,7 @@ private:
 public:
     Snake(Board* b, Food* f);
     void updatePosition(char direction);
-    void grow();
+   
 };
 
 #endif

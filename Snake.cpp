@@ -36,7 +36,7 @@ void Snake::updatePosition(char direction) {
 
     if (newX == food->getX() && newY == food->getY()) {
         food->generateFood();
-        grow();
+        
     } else {
         auto tail = positions.front();
         positions.pop();
